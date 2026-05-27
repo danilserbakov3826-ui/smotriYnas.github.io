@@ -1,0 +1,42 @@
+
+.movies{
+    display: flex;
+}
+h3{
+    margin: 0;
+}
+.movies-op{
+    margin-left: 25px;
+}
+.movies-title{
+    font-size: 35px;
+    margin-bottom: 10px;
+    color: #281919;
+}
+.movies-text{
+    color: #281919;
+    margin-bottom: 20px;
+    max-width: 700px;
+    font-size: 20px;
+}
+.movies-info{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    color: #281919;
+    margin-bottom: 30px;
+}
+.movies-actors{
+    max-width: 350px;
+    color: #281919;
+    margin-left: 10px;
+}
+.movies-video-play{
+    width: 900px;
+    height: 500px;
+}
+.movies-video{
+   text-align: center;
+   margin-bottom: 100px;
+}

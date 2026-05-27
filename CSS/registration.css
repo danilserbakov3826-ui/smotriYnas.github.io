@@ -1,0 +1,74 @@
+.registration{
+    padding: 65px;
+}
+
+.registration-logo{
+    text-align: center;
+}
+.registration__form{
+    background-color:#FFA260;
+    margin: 0 auto;
+    width: 900px;
+    height: 570px;
+    padding: 30px;
+    border-radius: 50px;
+}
+.registration__menu{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 25px;
+}
+.registration__menu-title{
+    color: var(--main-color);
+    font-size: 36px;
+
+}
+.registration__menu-entrance{
+    color: var(--main-color);
+    font-size: 24px;
+    transition: var(--transition);
+}
+.registration__menu-entrance:hover{
+    color: var(--accent-color);
+}
+.registration__text{
+    padding-left: 39px;
+}
+.registration__text-name{
+    font-size: 24px;
+    color: var(--main-color);
+    padding-left: 20px;
+}
+.registration__text-input{
+    font-size: 23px;
+    padding: 20px;
+    background-color: var(--main-color);
+    margin-bottom: 25px;
+    width: 490px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+}
+
+.registration-btn{
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 40px;
+    padding: 10px 0px;
+    background-color: var(--accent-color);
+    color: var(--main-color);
+    font-size: 24px;
+    border-radius: 25px;
+    transition: var(--transition);
+}
+.registration-btn:hover{
+    background-color: var(--accent-color-hover);
+}
+.registration-pol{
+    color: var(--main-color);
+    transition: var(--transition);
+}
+.registration-pol:hover{
+    color: var(--accent-color);
+}
